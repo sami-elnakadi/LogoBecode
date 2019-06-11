@@ -1,0 +1,152 @@
+body{
+    background-color: black;
+}
+
+/*In Code*/
+#compo {
+    animation: rotation 5s;
+    animation-delay: 1.5s;
+    height: 40vh;
+    width: auto;
+    position: absolute;
+    top: O;
+    z-index: 2;
+}
+
+.cls-1{fill:#fff;}
+.cls-2{fill:#56c5d0;}
+.cls-3{fill:#57c6d0;}
+
+@keyframes rotation {
+
+    0% {
+        transform: rotate(0deg);
+
+    }
+    25% {
+        transform: rotate(150deg);
+    
+    }
+    50% {
+        transform: rotate(13deg);
+    }
+    75% {
+        transform: rotate(80deg);
+    }
+    100% {
+        transform: rotate(0deg);
+
+    }
+    
+}
+
+/* BeCode */
+.becode1 {
+    fill: #56c5d0;
+    opacity: 0;
+}
+.becode2 {
+    fill: #fff;
+    opacity: 0;
+}
+
+
+.becode1appear {
+    opacity: 1;
+}
+
+
+/*Chiffres*/
+.numberswitch2 {
+    animation: 1s color;
+}
+
+.starandnumbers {
+    animation: 5s starRotate 1.5s;
+    animation-delay: 1.5s;
+    position: absolute;
+    top: 7.6%;
+    left: 3.8%;
+    height: 28vh;
+    width: auto;
+    z-index: 1;
+}
+
+.star2 {
+    animation: 1s color;
+}
+
+
+@keyframes color {
+
+    from {
+        fill:  #56c5d0; 
+    }
+    to {
+        fill: black;
+    }
+}
+
+@keyframes starRotate {
+    25% {
+            transform: rotate(-150deg);
+
+    }
+    50% {
+        transform: rotate(-13deg);
+    }
+    75% {
+        transform: rotate(-80deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+    
+}
+
+/*BeCentral*/
+
+.un {
+    
+    animation : transparence 3s;
+}
+
+.deux {
+    opacity:  0;
+    animation : transparence 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.trois {
+    opacity:  0;
+    animation : transparence 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.quatre {
+    opacity:  0;
+    animation : transparence 3s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transparence {
+    0% {
+            opacity: 0;
+    }
+    100% {
+            opacity: 1;
+    }
+}
+
+.center {
+  
+    position: absolute;
+    left: -1%;
+    top: -1%;
+    height: 32vh;
+    width: auto;
+    z-index: 0;
+}
